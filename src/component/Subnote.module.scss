@@ -1,0 +1,33 @@
+.note{
+    margin:20px;
+    display: inline-block;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px #e7e5e5;
+    position: relative;
+    padding: 10px;
+h3{
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+p{
+    padding: 5px;
+    overflow-wrap: break-word;
+
+}
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    position: absolute;
+    top: 70%;
+    right: -27px;
+    font-size: 10px;
+    background-color: rgb(255, 30, 30);
+    color: #fff;
+    &:hover{
+        background-color: red;
+    }
+}
+}

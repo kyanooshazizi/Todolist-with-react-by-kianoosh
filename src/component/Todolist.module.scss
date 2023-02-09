@@ -1,0 +1,33 @@
+.wrapper{
+   margin: 10px auto;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 2px 2px 5px 5px #e7e5e5;
+    width: 300px;
+    border-radius: 10px;
+    textarea{
+        position: relative;
+        border: none;
+        width: 90%;
+        outline: none;
+        border-radius: 10px;
+resize: none;
+    }
+    input{
+        width:90%;
+        border:none;
+        outline: none;
+        border-radius: 10px;
+    }
+    button{
+        position: absolute;
+        z-index: 12;
+        top:80%;
+        background-color: gold;
+        color: #fff;
+        &:hover{
+            background-color: rgb(255, 230, 91);
+        }
+    }
+    
+}
